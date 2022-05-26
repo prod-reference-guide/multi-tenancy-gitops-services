@@ -1,10 +1,10 @@
 apiVersion: v2
-name: grafana-operator
+name: ibm-ace-operator
 description: A Helm chart for Kubernetes
 type: application
-version: 0.1.0
+version: 0.2.2
 appVersion: "1.0"
 dependencies:
-  - name: grafana-operator
-    version: 0.1.0
-    repository: https://hollisc.github.io/gitops-testing
+  - name: ibm-ace-operator
+    version: 0.2.2
+    repository: https://charts.cloudnativetoolkit.dev
